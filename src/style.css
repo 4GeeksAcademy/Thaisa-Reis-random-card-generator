@@ -1,1 +1,57 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: #0e7e12;
+}
+
+html,
+body,
+.container-fluid {
+  height: 100%;
+}
+
+.card {
+  background-color: white;
+  width: 350px;
+  height: 500px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.element-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.element-left {
+  text-align: left;
+}
+
+.element-right {
+  text-align: right;
+}
+
+.element-inverted {
+  transform: rotateX(180deg);
+}
+
+.heart .icon {
+  color: red;
+}
+
+.icon {
+  font-size: 60px;
+  line-height: 1;
+}
+
+.number {
+  font-size: 120px;
+  font-weight: bold;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
